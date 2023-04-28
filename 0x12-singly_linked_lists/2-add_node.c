@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
+
 /**
  * _strlen - function that returns the length of a string.
  * @s : s is a character
@@ -39,4 +40,3 @@ list_t *add_node(list_t **head, const char *str)
 
 	return (add);
 }
-
