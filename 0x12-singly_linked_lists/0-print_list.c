@@ -4,9 +4,9 @@
 #include "lists.h"
 size_t print_list(const list_t *h)
 {
-    int count = 0;
-    while (h)
-    {
+int count = 0;
+while (h)
+{
 	if (h->str == NULL)
 	{
 	    printf("[%d] (nil)\n", h->len);
@@ -17,6 +17,6 @@ size_t print_list(const list_t *h)
 	}
 	count++;
 	h = h->next;
-    }
-    return (count);
+}
+return (count);
 }
