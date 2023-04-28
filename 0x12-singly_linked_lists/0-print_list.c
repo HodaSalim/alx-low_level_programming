@@ -18,5 +18,5 @@ while (h)
 	count++;
 	h = h->next;
 }
-return (count);
+return (0);
 }
